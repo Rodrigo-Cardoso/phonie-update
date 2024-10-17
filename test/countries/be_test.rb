@@ -91,6 +91,16 @@ class BETest < Phonie::TestCase
   end
   # 071:  Charleroi
 
+  # 077:  Machine to machine communication
+  def test_machine_to_machine
+    parse_test('+32 77 123456', '32', '77', '123456')
+  end
+
+  # 078:  National pay rate services
+  def test_national_pay_rate
+    parse_test('+32 78 123456', '32', '78', '123456')
+  end
+
   # 081:  Namur (Namen)
   def test_namur
     parse_test('+32 81 123456', '32', '81', '123456')
