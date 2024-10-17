@@ -569,7 +569,7 @@
   :iso_3166_code: BE
   :name: Belgium
   :international_dialing_prefix: '00'
-  :area_code: 800|90\d|2|3|4|9|1[0-69]|5\d|6[013-9]|7[01]|8[1-9]
+  :area_code: 800|90\d|2|3|4|9|1[0-69]|5\d|6[013-9]|7[0178]|8[1-9]
   :local_number_format: \d{5,8}
   :mobile_format: '[4]\d{8}'
   :number_format: '[4]\d{8}|[1-9]\d{7}'
